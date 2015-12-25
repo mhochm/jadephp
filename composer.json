@@ -1,5 +1,5 @@
 {
-    "name": "mhochm/laravel-jadephp",
+    "name": "mhochm/jadephp",
     "autoload": {
         "psr-4": {
             "mhochm\\JadePhp\\": "src/"
