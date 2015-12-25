@@ -1,4 +1,4 @@
-# laravel-jadephp
+# jadephp
 
 please use
 
@@ -6,4 +6,4 @@ please use
 
 to install this package.
 
-
+it allows for use of jade syntax on a php server side.
