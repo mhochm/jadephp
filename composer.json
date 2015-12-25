@@ -1,0 +1,13 @@
+{
+    "name": "mhochm/laravel-jadephp",
+    "autoload": {
+        "psr-4": {
+            "mhochm\\JadePhp\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^5.2",
+        "illuminate/view": "^5.2",
+        "kylekatarnls/jade-php": "^1.3"
+    }
+}
