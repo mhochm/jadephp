@@ -164,7 +164,7 @@ class Compiler
                     $var = ($match[0] === ',' ? ',' : '') . $match[1];
                     foreach (explode('.', substr($match[2], 1)) as $name) {
                         if (!empty($name)) {
-                            $var = '\\Jade\\Compiler::getPropertyFromAnything(' .
+                            $var = self::class . '::getPropertyFromAnything(' .
                                 static::addDollarIfNeeded($var) .
                                 ', ' . var_export($name, true) . ')';
                         }
