@@ -21,7 +21,7 @@ class Compiler
     /**
      * @const string
      */
-    const UNESCAPED = 'echo \\Jade\\Compiler::strval(%s)';
+    const UNESCAPED = 'echo '.self::class.'::strval(%s)';
     /**
      * @var boolean
      */
